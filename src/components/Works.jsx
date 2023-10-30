@@ -29,7 +29,7 @@ const ProjectCard = ({
         <div 
           
               onClick={() => window.open(source_code_link, "_blank")}
-          className='relative w-full h-[230px]'>
+          className='relative w-full h-[230px] cursor-pointer'>
           <img
             src={image}
             alt='project_image'
@@ -38,7 +38,7 @@ const ProjectCard = ({
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center '
             >
               <img
                 src={trinity}
