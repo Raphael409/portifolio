@@ -162,8 +162,8 @@ const projects = [
             },
         ],
         image: trinityMixes,
-    },
         source_code_link: "https://trinitymixes.onrender.com/",
+    },
 ];
 
 export { experiences, projects, services, technologies, testimonials };
